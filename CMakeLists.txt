@@ -15,3 +15,7 @@ add_executable(infinite_print
 add_executable(threading_example
         threading_example/main_simple_example.cpp
 )
+
+add_executable(threading_example_v2
+        threading_example/main_simple_data_mutating.cpp
+)
