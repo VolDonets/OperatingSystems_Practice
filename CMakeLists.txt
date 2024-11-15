@@ -19,3 +19,15 @@ add_executable(threading_example
 add_executable(threading_example_v2
         threading_example/main_simple_data_mutating.cpp
 )
+
+add_executable(lab6_threading
+        threading_example/main_lab_6.cpp
+)
+
+add_executable(lab7_threading
+        threading_example/main_lab_7.cpp
+)
+
+add_executable(lab8_threading
+        threading_example/main_lab_8.cpp
+)
